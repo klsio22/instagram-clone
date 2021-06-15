@@ -1,0 +1,21 @@
+.active-dark-mode{
+  display: none;
+}
+
+.active-dark-mode:checked ~ .dark-mode {
+  --colorPage-primary: rgb(14, 13, 13);
+}
+
+.active-dark-mode:checked ~ .dark-mode .bottom-dark{
+ color: white;
+}
+
+.active-dark-mode:checked ~ .dark-mode .logo-dark-mode {
+  background-image: url(/img/instagram-logo2.png);
+}
+.active-dark-mode:checked ~ .dark-mode main {
+  background-color: var(--colorPage-primary);
+}
+.active-dark-mode:checked ~ .dark-mode footer {
+  background-color: var(--colorPage-primary);
+}
