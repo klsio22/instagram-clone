@@ -1,5 +1,6 @@
 .active-dark-mode {
   display: none;
+  position: absolute;
 }
 
 .active-dark-mode:checked ~ .dark-mode {
