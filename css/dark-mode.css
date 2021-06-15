@@ -11,7 +11,7 @@
 }
 
 .active-dark-mode:checked ~ .dark-mode .logo-dark-mode {
-  background-image: url(/img/instagram-logo2.png);
+  background-image: url(../img/instagram-logo2.png);
 }
 .active-dark-mode:checked ~ .dark-mode main {
   background-color: var(--colorPage-primary);
