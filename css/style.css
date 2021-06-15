@@ -10,6 +10,7 @@
 :root {
   --colorPage-primary: linear-gradient(#ff8f48, #ffcf53);
   --colorBorders-primary: rgb(87, 85, 85);
+  --colorText-default:black;
   --colorText-primary: rgb(110, 110, 110);
   --colorText-secondary: white;
   --colorBackground-primary: #0095f6;
@@ -21,6 +22,7 @@
 }
 
 body {
+  color: var(--colorText-default);
   width: var(--width-100);
   min-height: 100vh;
   background: var(--colorPage-primary);
