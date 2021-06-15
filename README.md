@@ -7,5 +7,5 @@
 
 ## *🚀 - Fiz uso de variáveis no CSS para facilitar na manutenção do código . 🚀*
 
-## 🚀 - Adicionei um link online usando o Git pages no endereço:https://klsio22.github.io/instagram-clone/ 🚀
+## 🚀 - Adicionei um link online usando o Git pages no endereço:https://klsio22.github.io/instagram-clone/ 
 
