@@ -6,7 +6,6 @@
   color: var(--colorText-default);
 }
 
-
 :root {
   --colorPage-primary: linear-gradient(#ff8f48, #ffcf53);
   --colorBorders-primary: rgb(87, 85, 85);
@@ -21,9 +20,8 @@
   --size-default: 1rem;
 }
 
-body{
+body {
   background: var(--colorPage-primary);
-
 }
 
 .default-pege {
@@ -170,8 +168,8 @@ main {
 }
 
 footer {
-  color: var(--colorText-primary);
-  margin: auto; 
+  padding: var(--size-default);
+  margin: auto;
 }
 
 footer a {
@@ -192,6 +190,7 @@ footer a {
 }
 
 .links-footer ul li {
+  color: var(--colorText-primary);
   padding-right: var(--size-default);
 }
 
@@ -200,4 +199,8 @@ footer a {
   align-items: center;
   justify-content: center;
   padding-bottom: var(--size-default);
+}
+
+.copyright p {
+  color: var(--colorText-primary);
 }
