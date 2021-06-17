@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt_BR">
 
 <head>
     <meta charset="UTF-8">
@@ -15,12 +15,15 @@
 
 <body>
 
-    <input type="checkbox" id="active-dark-mode" class="active-dark-mode">
+    <input type="checkbox" id="active-dark-mode" class="active-dark-mode" onclick="status()">
 
     <div class="dark-mode">
 
         <div class="bottom-dark">
-            <img class="icon-lamp" src="img/lampada-led.png" alt="icone lampada">
+            <div>
+                <img class="icon-lamp" id="icon-lamp" src="img/lampada-off.png" alt="icon-lamp">
+            </div>
+
             <label for="active-dark-mode">MODO<br>ESCURO</label>
         </div>
 
@@ -34,6 +37,8 @@
 
                     <div class="instagram-continue">
                         <div class="group">
+
+                            <img src="" alt="">
 
                             <img id="logo-dark-mode" class="logo-dark-mode" src="img/instagram-logo.png"
                                 alt="instagram logo">
@@ -131,6 +136,9 @@
 
     </div>
 
+
+
+    <script src="JS/change-image.js"></script>
 </body>
 
 </html>
