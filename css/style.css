@@ -36,6 +36,10 @@ main {
   justify-content: center;
 }
 
+label{
+  display: flex;
+}
+
 .bottom-dark {
   display: flex;
   align-items: center;
