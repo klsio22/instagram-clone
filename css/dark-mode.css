@@ -3,13 +3,10 @@
   position: absolute;
 }
 
-.active-dark-mode:checked ~ .dark-mode {
-  --colorPage-primary: rgb(14, 13, 13);
+/* Rewrite default definitions*/
+.active-dark-mode:checked ~ .dark-mode { 
+  --colorPage-primary: #202020;
   --colorText-default: white;
-}
-
-.active-dark-mode:checked ~ .dark-mode .bottom-dark {
-  color: white;
 }
 
 .active-dark-mode:checked ~ .dark-mode main {

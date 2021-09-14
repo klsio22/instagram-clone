@@ -4,7 +4,7 @@ let logo = document.querySelector("#logo-dark-mode");
 
 darkMode.onclick = function () {
 
-  if (imgName.src.match("off")) {
+  if (imgName.src.includes("off")) {
     imgName.src = "img/lampada-on.png";
     logo.src = "img/instagram-logo3.png"
   } else {
